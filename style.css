@@ -1,0 +1,66 @@
+* {
+  font-family: "Outfit";
+}
+
+body {
+  margin: 0;
+}
+
+nav section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  padding: 0 20px;
+}
+nav section #logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  color: #E8786E;
+  gap: 10px;
+}
+nav section #logo h1 {
+  margin: 0;
+}
+nav section #searchBar {
+  width: 60%;
+  border: solid 1px #E8786E;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav section button {
+  border-radius: 40px;
+  width: 125px;
+  height: 50px;
+  background: #E8786E;
+  border: none;
+  padding: 0 10px;
+  color: white;
+  font-size: 15px;
+}
+nav section #connexion button {
+  border: 1px solid #E8786E;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  color: #E8786E;
+}
+nav section #connexion button p {
+  margin: 0;
+}
+
+main #recette img {
+  width: 25%;
+}
+main #recette article {
+  display: flex;
+  flex-direction: row;
+}
+
+/*# sourceMappingURL=style.css.map */
